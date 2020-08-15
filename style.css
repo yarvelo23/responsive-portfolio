@@ -1,1 +1,7 @@
 /*background image*/
+
+
+/*separting button from footer*/
+button {
+    margin-bottom: 20px;
+}
