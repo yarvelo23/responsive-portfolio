@@ -50,9 +50,49 @@
         </nav>
     </header>
 
+    <!--page content-->
+    <div class="content">
+        <!--creating space for about me, specifying border and border coloring-->
+        <div class="container my-3 p-3 border border border-dark bg-light">
+            <div class="d-flex row">
+                <!--controls how the about me text will be centered in smaller screens-->
+                <div class="align-items-baseline col-lg-12 text-secondary">
+                    <!--using bootstrap classes to format the tesxt-->
+                    <h1 class="display-5 text-center text-lg-left">About Me</h1>
+                </div>
+            </div>
+            
+            <hr>
 
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="text-center">
+                        <!--image with semantic tagging-->
+                        <figure class="bio-image">
+                            <img src="https://pbs.twimg.com/profile_images/682718281447297028/SSoKdLri.jpg" alt="bio image">
+                        </figure> 
+                    </div>
+                </div>
+                <!--RESEARCH HOW TO MAKE TEXT FLOAT AROUND THE IMAGE, MIGHT NEED TO JOIN THE ABOVE FIGURE AND THE BELOW TEXT INTO A SINGLE CONTAINER-->
+                <p class="bio-text-1">
+                    Hello world! My name is Yerson Arvelo and I'm a current Full Stack Web Development student at Columbia University Coding Bootcamp.  I have a diverse background in client facing and project management roles.  I am learning web development in order to expand my technical skillset and put my problem solving skills into practice.
+                </p>
+                <p class="bio-text-2">
+                    During my free time, I enjoy reading books, learning about sports cars on youtube, working out and brainstorming new business ideas.
+                </p>
+            </div>
+        </div>
+    </div>
 
-
+    <!--creating sticky footer-->
+    <footer class="footer">
+        <div class="container-fluid h-25">
+            <div class="row">
+                <div class="col-lg-12 bg-secondary border-top border-info border-3 text-center text-bottom pt-3">Code Ninja In Training
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
