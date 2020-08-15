@@ -109,7 +109,7 @@ Submission on BCS
 You are required to submit the following:
 
 
-The URLs of the deployed applications
+The URLs of the deployed applications: https://yarvelo23.github.io/responsive-portfolio/
 
 
-The URLs of the GitHub repositories
+The URLs of the GitHub repositories: https://github.com/yarvelo23/responsive-portfolio.git
