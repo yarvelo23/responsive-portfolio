@@ -5,3 +5,18 @@
 button {
     margin-bottom: 20px;
 }
+
+/*making bio text wrap around bio image*/
+.bio-text-1 {
+    float: left;
+    width: 50%;
+}
+
+.bio-image {
+    float: left;
+    width: 50%;
+}
+
+.bio-text-2 {
+    float: left;
+}
