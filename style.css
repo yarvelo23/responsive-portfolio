@@ -23,4 +23,13 @@ button {
     float: left;
 }
 
+/*resizing images for consistent sizing*/
+.refactoring-image {
+    height: 200px;
+    width: 200px;
+}
 
+.responsive-webdesign-image {
+    height: 200px;
+    width: 200px;
+}
