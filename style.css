@@ -1,5 +1,7 @@
 /*background image*/
-
+body {
+    background-image: url("matrix.jpg");
+}
 
 /*separting button from footer*/
 button {
